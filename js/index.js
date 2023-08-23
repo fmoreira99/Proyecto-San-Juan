@@ -75,7 +75,7 @@ fetch('componentes/menu.html')
       var html= '<div class="card m-"> ' +
       '<img src="img/Docentes/infDocente/'+url+'" class="card-img-top" alt="..."> ' +
      '<div class="card-body"> ' +
-        '<h5 class="card-title"> '+docentes[i].nombre+' Card title</h5> ' +
+        '<h5 class="card-title"> '+docentes[i].nombre+' </h5> ' +
       '</div>' +
     '</div>';
     document.getElementById('card-columns-docentes').innerHTML += html;
