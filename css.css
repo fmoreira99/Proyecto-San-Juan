@@ -1,37 +1,74 @@
-#assssss{
-color: brown;
-font-size: 100px;
-background: #2d987b;
+#assssss {
+    color: brown;
+    font-size: 100px;
+    background: #2d987b;
 }
-.class_1
-{
+
+.class_1 {
     color: rgb(244, 210, 36);
-font-size: 100px;
-background: #2d987b;
+    font-size: 100px;
+    background: #2d987b;
 }
-.magil
-    {
-        margin-left: 50px;
-    }
-@media (max-width: 1000px) { 
-    .oculto_celular
-    {
+
+.magil {
+    margin-left: 50px;
+}
+
+.portada {
+    background: #182036;
+    height: 500px;
+    background-image: url(img/Portada.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.portada p {
+
+    color: #fff; font-style: italic; font-size: 22px; width: 650px;
+}
+.card_bachi
+{
+    height: 550px;
+}
+@media (max-width: 1000px) {
+    .oculto_celular {
         display: none;
     }
-    .block
+    .card_bachi
     {
+        height: auto;
+    }
+    .btnpersonal {
+        color: #ffffff;
+        position: absolute;
+        right: 10px;
+        background: rgba(229, 218, 218, 0.35);
+    }
+
+    .portada {
+        background: #182036;
+        height: 600px;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .portada p {
+        width: 100%;
+    }
+
+    .block {
         display: block !important;
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: center;
         text-align: center;
     }
+
     .mss {
         padding: 50px;
         text-align: center;
     }
-    .magil
-    {
+
+    .magil {
         margin-left: 0px;
     }
 }
