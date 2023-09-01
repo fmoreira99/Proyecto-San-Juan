@@ -16,7 +16,7 @@ fetch('componentes/menu.html')
 
 
 
-
+// Aqui creo mis datos de tipo JSON
  let docentes= [
     { id:1,
       nombre:"MARIN BURBANO MERCEDES MARINA",
@@ -70,8 +70,9 @@ fetch('componentes/menu.html')
   
   ]
   
-  
+  // Ejcuto la funcion
   generarImgDocentes(docentes);
+  // Aqui tengo mi funcion la cual tiene un parametro llamado docentes
   function generarImgDocentes(docentes)
   {
     for(let i=0; i<docentes.length;i++)
